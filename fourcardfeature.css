@@ -1,1 +1,206 @@
+## Colors
+
+### Primary
+
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+html{}
+  /* primary styling background font, font color ect */
+body{background-color: hsl(0, 0%, 98%);
+     font-family: 'Poppins', sans-serif;
+     font-size: 14px;}
+
+.header h1{font-size:25px;}
+.reliable{font-size: 24px;
+          line-height: .15px;}
+p{color:hsl(0, 0%, 64%); }
+
+/* card design  and layout*/
+.card{background-color: hsl(0, 100%, 100%);
+      width: 25%;
+      height:25%;
+      padding-top: .5%;
+      margin-top: 3%;
+      border-radius:15px;
+      border-top-style: solid;
+    }
+.card img{margin-left: 70%;
+          padding-bottom: 5%;
+          padding-right: 3%;
+          margin-right: auto;
+          max-width: 90%;
+          max-height: inherit;}
+  /* card text */
+.card h2{margin-left: 7%;}
+.card p {margin-left: 7%;
+         margin-bottom: 10%;
+         max-width: 85%;}## Colors
+
+### Primary
+
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+
+html{}
+  /* primary styling background font, font color ect */
+body{background-color: hsl(0, 0%, 98%);
+     font-family: 'Poppins', sans-serif;
+     font-size: 14px;}
+
+.header h1{font-size:25px;}
+.reliable{font-size: 24px;
+          line-height: .15px;}
+p{color:hsl(0, 0%, 64%); }
+
+/* card design  and layout*/
+.card{background-color: hsl(0, 100%, 100%);
+      width: 25%;
+      height:25%;
+      padding-top: .5%;
+      margin-top: 3%;
+      border-radius:15px;
+      border-top-style: solid;
+    }
+.card img{margin-left: 70%;
+          padding-bottom: 5%;
+          padding-right: 3%;
+          margin-right: auto;
+          max-width: 90%;
+          max-height: inherit;}
+
+  /* card text */
+.card h2{margin-left: 7%;}
+.card p {margin-left: 7%;
+         margin-bottom: 10%;
+         max-width: 85%;}
+
+/* card border colors */
+.supervisor{
+border-top-color:hsl(180, 62%, 55%);}
+
+.teamBuilder{border-top-color: hsl(0, 78%, 62%);}
+
+.karma{border-top-color: hsl(34, 97%, 64%);}
+
+.calculator{border-top-color: hsl(212, 86%, 64%);}
+
+/* mobile specific format */
+
+@media screen and (max-width:600px) {
+  .header{margin-top: 20%;
+          margin-left: 10%;
+          margin-right:10;
+          max-width: 80%;
+          max-height: inherit;
+          text-align: center;}
+  .card{min-width: 75%;
+        min-height: inherit;
+        margin-left: 15%;
+        margin-top: 10%;
+        margin-bottom: 10%;}
+}
+/* desktop view  */
+@media screen and (min-width:600px) {
+      .header{text-align: center;
+          width: 35%;
+          margin: 5% 0% 5% 35%;}
+
+
+     /* background colors of green and blue are here to help visualize the divs
+       they will be romoved once the project is complete.*/
+
+      .middle{background-color: green;
+            width: 40%;
+            padding-right: 0;
+            margin-right:0;
+
+
+            }
+    .middle .card{min-width: 65%;
+                  min-height: 40%;
+                }
+
+    .main {background-color: blue;
+          display: inline-flex;
+          max-width: 80%;
+          margin-left: 15%;}
+          .card{margin:2rem;}
+    .calculator{float: right;}
+
+        }
+
+
+/* card border colors */
+.supervisor{
+border-top-color:hsl(180, 62%, 55%);}
+
+.teamBuilder{border-top-color: hsl(0, 78%, 62%);}
+
+.karma{border-top-color: hsl(34, 97%, 64%);}
+
+.calculator{border-top-color: hsl(212, 86%, 64%);}
+
+/* mobile specific format */
+
+@media screen and (max-width:600px) {
+  .header{margin-top: 20%;
+          margin-left: 10%;
+          margin-right:10;
+          max-width: 80%;
+          max-height: inherit;
+          text-align: center;}
+  .card{min-width: 75%;
+        min-height: inherit;
+        margin-left: 15%;
+        margin-top: 10%;
+        margin-bottom: 10%;}
+}
+/* desktop view  */
+@media screen and (min-width:600px) {
+    .body{margin: 0;
+     padding: 0;
+    overflow-x: hidden;}
+    .header{text-align: center;
+            width: 35%;
+            margin: 5% 0% 5% 35%;
+      
+      
+     /* background colors of green and blue are here to help visualize the divs
+       they will be romoved once the project is complete.*/
+    
+      .middle{background-color: green;
+            width: 40%;
+            padding-right: 0;
+            margin-right:0;
+
+
+            }
+    .middle .card{min-width: 65%;
+                  min-height: 40%;
+                }
+
+    .main {background-color: blue;
+          display: inline-flex;
+          max-width: 80%;
+          margin-left: 15%;}
+          .card{margin:2rem;}
+    .calculator{float: right;}
+
+        }
 
